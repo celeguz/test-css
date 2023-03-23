@@ -15,6 +15,7 @@ button.button-module__button.button-module__buttonWithIcon {
     border: 0;
 }
 
-.button-module__buttonWithIcon.button-module__secondary:not(.button-module__disabled):hover {
+.button-module__buttonWithIcon.button-module__secondary:not(.button-module__disabled):hover,
+.button-module__buttonWithIcon.button-module__secondary:not(.button-module__disabled):active {
     background-color: transparent;
 }
