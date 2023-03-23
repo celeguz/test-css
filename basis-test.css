@@ -1869,13 +1869,13 @@ svg text {
 	background-color: #373737 !important;
 }
 
-.pinboard-header-module__pinboardHeader {
+/* .pinboard-header-module__pinboardHeader {
   background-color: #000 !important;
 }
 
 .pinboard-content-module__gridContainer {
   background-color: #000 !important;
-}
+} */
 
 button[data-testid=query-visualizer-btn] > svg {
   display: none;
