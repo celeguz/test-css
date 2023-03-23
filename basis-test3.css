@@ -1,0 +1,20 @@
+body {
+    background:#f7f7f7 !important;
+}
+
+.button-module__backgroundLight.button-module__primary {
+    border: 1px solid #feb92f;
+}
+
+.button-module__backgroundLight.button-module__secondary {
+    border: 1px solid #d3d3d3;
+}
+
+button.button-module__button.button-module__buttonWithIcon {
+    background: none;
+    border: 0;
+}
+
+.button-module__buttonWithIcon.button-module__secondary:not(.button-module__disabled):hover {
+    background-color: transparent;
+}
