@@ -53,3 +53,15 @@ label.form-control-module__label {
 .input-base-module__container.input-base-module__hasFocus {
     border: 1px solid #2273d2;
 }
+
+.pinboard-content-module__tileContent {
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+    padding: 8px 12px 12px;
+}
+
+.button-module__backgroundLight.button-module__tertiary:not(.button-module__disabled):focus p.button-module__buttonText,
+.button-module__backgroundLight.button-module__tertiary:not(.button-module__disabled):hover p.button-module__buttonText {
+    color: #1158ac;
+    fill: #1158ac;
+}
