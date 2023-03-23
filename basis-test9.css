@@ -5,6 +5,10 @@ body {
     font-family: "Source Sans Pro", sans-serif;
 }
 
+button, input, optgroup, select, textarea { 
+    font-family: "Source Sans Pro", sans-serif;
+}
+
 .button-module__backgroundLight.button-module__primary {
     border: 1px solid #feb92f;
 }
@@ -34,4 +38,18 @@ button.button-module__button.button-module__buttonWithIcon {
 
 h3.typography-module__modal-title {
     letter-spacing: 0;
+}
+
+label.form-control-module__label {
+    font-size: 14px;
+    line-height: 16px;
+    display: inline-block;
+}
+
+.form-control-module__hasFocus .form-control-module__label {
+    color: #2273d2;
+}
+
+.input-base-module__container.input-base-module__hasFocus {
+    border: 1px solid #2273d2;
 }
