@@ -65,3 +65,16 @@ label.form-control-module__label {
     color: #1158ac;
     fill: #1158ac;
 }
+
+.modal-module__footer {
+    flex-direction: row-reverse;
+}
+
+.button-module__buttonWrapper.modal-module__actionBtn {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.button-module__backgroundLight.button-module__primary.button-module__buttonSelected, .button-module__backgroundLight.button-module__primary:not(.button-module__disabled):active {
+    background-color: #ffeac1;
+}
