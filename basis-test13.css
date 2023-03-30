@@ -84,3 +84,20 @@ label.form-control-module__label {
     box-shadow: none;
     padding: 32px;
 }
+
+.pinboard-header-module__pinboardHeaderContainer.pinboard-header-module__embedPinboardHeader.layout-module__vertical {
+    background-color: #f7f7f7 !important;
+    box-shadow: none;
+    height: 50px;
+}
+
+.button-module__backgroundColored.button-module__tertiary:not(.button-module__disabled):active {
+    background-color: transparent;
+    color: #1158ac;
+    fill: #1158ac;
+}
+
+.button-module__backgroundColored.button-module__tertiary:not(.button-module__disabled):active .button-module__buttonText{
+    color: #1158ac;
+    fill: #1158ac;
+}
