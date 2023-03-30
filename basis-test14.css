@@ -101,3 +101,7 @@ label.form-control-module__label {
     color: #1158ac;
     fill: #1158ac;
 }
+
+div#pinboard-content-module__dragHandle {
+    width: 97%;
+}
