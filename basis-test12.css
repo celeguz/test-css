@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+body {
+    background:#f7f7f7 !important;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+button, input, optgroup, select, textarea { 
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.button-module__backgroundLight.button-module__primary {
+    border: 1px solid #feb92f;
+}
+
+.button-module__backgroundLight.button-module__secondary {
+    border: 1px solid #d3d3d3;
+}
+
+button.button-module__button.button-module__buttonWithText.button-module__backgroundLight {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    height: 30px;
+    padding: 0 10px;
+}
+
+button.button-module__button.button-module__buttonWithIcon {
+    background: none;
+    border: 0;
+}
+
+.button-module__buttonWithIcon.button-module__secondary:not(.button-module__disabled):focus,
+.button-module__buttonWithIcon.button-module__secondary:not(.button-module__disabled):hover,
+.button-module__buttonWithIcon.button-module__secondary:not(.button-module__disabled):active {
+    background-color: transparent;
+}
+
+h3.typography-module__modal-title {
+    letter-spacing: 0;
+}
+
+label.form-control-module__label {
+    font-size: 14px;
+    line-height: 16px;
+    display: inline-block;
+}
+
+.form-control-module__hasFocus .form-control-module__label {
+    color: #2273d2;
+}
+
+.input-base-module__container.input-base-module__hasFocus {
+    border: 1px solid #2273d2;
+}
+
+.pinboard-content-module__tileContent {
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+    padding: 8px 12px 12px;
+}
+
+.button-module__backgroundLight.button-module__tertiary:not(.button-module__disabled):focus p.button-module__buttonText,
+.button-module__backgroundLight.button-module__tertiary:not(.button-module__disabled):hover p.button-module__buttonText {
+    color: #1158ac;
+    fill: #1158ac;
+}
+
+.modal-module__footer {
+    flex-direction: row-reverse;
+}
+
+.button-module__buttonWrapper.modal-module__actionBtn {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.button-module__backgroundLight.button-module__primary.button-module__buttonSelected, .button-module__backgroundLight.button-module__primary:not(.button-module__disabled):active {
+    background-color: #ffeac1;
+}
+
+.pinboard-edit-header-module__editActionHeader {
+    background-color: #f7f7f7 !important;
+    box-shadow: none;
+    padding: 32px;
+}
