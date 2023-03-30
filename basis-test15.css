@@ -80,15 +80,15 @@ label.form-control-module__label {
 }
 
 .pinboard-edit-header-module__editActionHeader {
-    background-color: #f7f7f7 !important;
+    background-color: transparent !important;
     box-shadow: none;
     padding: 32px;
 }
 
-.pinboard-header-module__pinboardHeaderContainer.pinboard-header-module__embedPinboardHeader.layout-module__vertical {
-    background-color: #f7f7f7 !important;
-    box-shadow: none;
-    height: 50px;
+.pinboard-header-module__pinboardHeader.layout-module__vertical {
+    background-color: white;
+    height: 32px;
+    justify-content: center;
 }
 
 .button-module__backgroundColored.button-module__tertiary:not(.button-module__disabled):active {
@@ -105,3 +105,5 @@ label.form-control-module__label {
 div#pinboard-content-module__dragHandle {
     width: 97%;
 }
+
+
